@@ -1,27 +1,134 @@
-<p align="center">
-  <a href="https://kotlinlang.org/">
-    <img src="https://img.shields.io/badge/Kotlin-1.4.0-blue.svg?logo=Kotlin" alt="Kotlin 1.4.0">
-  </a>
-  <a href="https://github.com/JakeJMattson/DiscordKt">
-    <img alt="DiscordKt 0.19.1" src="https://img.shields.io/badge/DiscordKt-0.19.1-blue.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAABmJLR0QA/wD/AP+gvaeTAAAEvElEQVRYw+2Yy2seVRiHn3Ob756kiWlrq7ZqDSJUsSqoK4srQXHjRnShf4ILl/4FrkVcKLgS1FW3FRR05b1IMVXbNG2SJvny5ct3nZkz5+IitpW2giYOFskLA7M4Z+Y57/m9P857YC92F+Lqy/T0M/F2Atvc/EIAyNs9g3uAuw3974lZMFc9jsJwLj+Dj+72ATxSO8KrB1/nHjOHd5q1rM3Hm+/zc/b9f1vFTV3npbuf49k7ThJ9gisM3ulrz5nBj3zSfY+u39hxFe8IUCA4efgRXjv2PA05iXeaiGHyiRa2L+l87SnsNmRaBE53T3F68CnuH2z7jgHvm5rljRPPMTdxz7VMVeemOPTyYSp3JgCMzlt+fWdA71zEO41zmqV0hY823mPBzpcHeKg1wYcvvEJCDe8V1GpMv3iM5qMzN42NEdpfjFn4YETakXinyQt4e/ktLtvz5Rj1s/cfpVWPmEpO88Emh988cUs4ACFg/8k6j707w+wT23NqVc+Tk0+X54ONisBUcnRiqT9/P157vPd/OT7GiFM5B16SJJWcpJJTM6o8m6lVBCaxSBmIaU5sVXGFxXuB1gYpr/48YnNLlmYgInISTDVDFoZ6mYB3tAw6sUjlQVyXbAyRwlqUUiAEaZoSQ7imcCEiSSXHK89krVoeoNEek1i8V3hxc01577F5QSTcIMhtDUrlSYwrD3CyLrcz6BUBzy3LPsuham7gu57BZjUpr0jqFYE2BdoUmIX5bS+5ack3fDKC+2ENnVhMJadqYnkZbA9ztCkIMiCWziJ7bewjTxFmD17nUX8CXB/gv7pAuDTCJBrvFZ1sUB5gp+9Z35LMTjm0CsjxKuarUxQH7iV/+ElivQFCIEYp6odzhF9WiU5jEo2QnvZajc1RiRo0JtIbw3CkmZkKTLX+yGb7POqzRYqDx1AuIi5dIRSCkGikDPQtLK9VGI8jifHlAQ5zi1YFISjWupLeSLN/2lE1AekDanWe4BVBK7xQZCGy1jV0uooQLcoERn5YogZHGd3UMtXQaKmwXnLpimKiEZmddmgp8TIQRaDT1bTbGlsEjLE4qehmlp4dlQfoY6CfFgxTz76mpllVSKkYZprhkqHViOAl3X5CnguEdhgiQ+9pDwNpIfEyLw/w4sYYj0NIxcYwMBgrZiY0iY5EL+mPFdFHoijQJuKjY3Mo2RpFolBECYuD1fJ8sJ85Pp/f4EpvjFKBAsdyz9IeWKJyaO1QxiGVo59nLG9ljIscpR1bdsB36xdJfVZmkXhSF/lmsc++dsrxuxrsq1VIi8jlTqBZUcQg6I8FtpAorcl9wfzGgKWtETEKBkVa4hZ3Uu6cSjg6U6U7Lvjy1x5376vw0KEGiTQMck8MEoREKMFCZ8C59SHOgZSSy70Ri71u+U3T/omEx4+2mKprQJBIwYOHGhyZrkFULG9Zzi6NGeWeGCVjG/hppcul7t+3mF01TVcnHp2t8tiRFonePuNJISAIfIQYBD4IfmuP+Gmlh/NhR13djvviCCy0M1a6OcfvavLAgfr2IUtEBLDSt3y32GeY766B33XjnrvItxcH/LaeMXewipaCC+2M1Z69va4+tsYFX18o9m639gD/d4B7sdv4Hc8YdmfiizvVAAAAAElFTkSuQmCC">
-  </a><br>
-  <a href="https://GitHub.com/JakeJMattson/EmbedBot/releases/">
-    <img src="https://img.shields.io/github/release/JakeJMattson/EmbedBot.svg?label=Release&logo=Github" alt="Release">
-  </a>
-  <a href="https://hub.docker.com/repository/docker/jakejmattson/embedbot/tags?page=1">
-    <img src="https://img.shields.io/docker/cloud/build/jakejmattson/embedbot.svg?label=Docker&logo=docker" alt="Docker">
-  </a>
-  <br>
-  <a href="https://discordapp.com/users/254786431656919051/">
-      <img src="https://img.shields.io/badge/Personal-JakeyWakey%231569-%2300BFFF.svg?logo=discord" alt="Discord JakeyWakey#1569">
-  </a>
-</p>
+<div align="center">
+    <img src="https://i.imgur.com/a6Gzya2.png" width="580">
+    <h4>Easily create Discord.js embed menus with reactions and unlimited customisable pages.<br>Need help? Join the support server! https://discord.gg/VBDhRc8</h4>
+    <a href="https://nodei.co/npm/discord.js-menu/"><img src="https://nodei.co/npm/discord.js-menu.png"></a><br>
+    <img alt="npm" src="https://img.shields.io/npm/dw/discord.js-menu">
+    <img alt="npm" src="https://img.shields.io/npm/dt/discord.js-menu">
+    <img alt="npm (prod) dependency version" src="https://img.shields.io/npm/dependency-version/discord.js-menu/discord.js">
+</div>
 
-# EmbedBot
-EmbedBot is a simple bot interface to create and modify embeds via commands. Creating embeds is not possible with a user account via the traditional Discord interface. You can create and store as many embeds as you want. These can be imported and exported as JSON for easy sharing between servers or persistent storage. You can also group embeds together, allowing you to deploy and manage multiple embeds at once. This will allow servers to easily set up a rules channel, keeping all of the related embeds grouped together and ready to send with a single command.
+# Update as of 11th May 2021:
+I currently don't have enough time to put into maintaining my old code, due to college. In the mean time, I encourage you to adapt my code into your own implementation. There's nothing particularly terrible about this code - at least, there *shouldn't* be - but I'm not around to add new features/bug fixes/etc. I'm still checking the support Discord server when I can, to answer questions.  
+I intend on re-writing this library in TypeScript when I return. All the best :)
 
-## Add it
-You can either [invite](https://discordapp.com/oauth2/authorize?client_id=439163847618592782&scope=bot&permissions=101440) it to your server or host it yourself with the [setup guide](setup.md).
+---
 
-## Using it
-To use the bot, see the [User Guide](guide.md) or a full list of [commands](commands.md).
+### Project Summary
+Create flexible, understandable and performant Discord reaction menus with ease. This package is an addon for Discord.js that automates all aspects of a reaction-based navigation menu.  
+Besides creating it, of course. It'd be pretty useless if you couldn't create the menus yourself.
+
+### Learn Discord.js-Menu in Y minutes.
+Here's a fast, fully-featured demo of Discord.js-menu. With one read-through of this demo, you should have all you need to create your own menus from scratch.  
+All values have TypeScript / TSDoc types, so if you use an editor like VSCode, you should get real-time code suggestions and tooltips where appropriate.
+
+```js
+/* Import all the usual stuff. This shouldn't be anything new. */
+const { Client, MessageEmbed } = require('discord.js')
+const { Menu } = require('discord.js-menu')
+const client = new Client()
+
+/* Run this code every time a new message is sent. */
+client.on('message', message => {
+    if (message.content === "!help") {
+        /*
+         * The menu class takes 4 parameters. 
+         * 1) A channel to send the menu to
+         * 2) A user ID to give control over the navigation, 
+         * 3) An array of Page objects, each being a unique page of the menu
+         * 4) How long, in milliseconds, you want the menu to wait for new reactions
+         */
+        let helpMenu = new Menu(message.channel, message.author.id, [
+            {
+                /*
+                 * A page object consists of three items:
+                 * 1) A name. This is used as a unique destination name for reactions.
+                 * 2) Some content. This is a rich embed. 
+                 * You can use {object: formatting} or .functionFormatting() for embeds. Whichever you prefer.
+                 * 3) A set of reactions, linked to either a page destination or a function.* (See example pages)
+                 * 
+                 * Reactions can be emojis or custom emote IDs, and reaction destinations can be either the names
+                 * of pages, () => { functions }, or special destination names. See below for a list of these.
+                 */
+
+                /* You can call pages whatever you like. The first in the array is always loaded first. */
+                name: 'main',
+                content: new MessageEmbed({
+                    title: 'Help Menu',
+                    description: 'This is some helpful info!',
+                    fields: [
+                        {
+                            name: "Command: Ban",
+                            value: "This command bans people.",
+                            inline: true
+                        }
+                    ]
+                }),
+                reactions: {
+                    '😳': 'extra',
+                    '😀': async () => {
+                        // You can run whatever you like in functions.
+                        let res = await message.channel.send("Hey-")
+                        setTimeout(() => {
+                            return res.edit("listen!")
+                        }, 1000)
+                    }
+                }
+            },
+            {
+                name: 'extra',
+                content: new MessageEmbed({
+                    title: 'Extra menu',
+                    description: 'This is another page.'
+                }),
+                reactions: {
+                    /* You can use custom emotes by using their ID instead of an emoji. */
+                    '711632156497019021': 'main',
+                    '711840938303847401': 'delete',
+                }
+            }
+        ], 300000)
+
+        /* Run Menu.start() when you're ready to send the menu in chat.
+         * Once sent, the menu will automatically handle everything else.
+         */ 
+        helpMenu.start()
+
+        /* The menu also has a singular event you can use for, well, whatever you like.
+         * The "pageChange" event fires just before a new page is sent. You can use
+         * this to edit pages on the fly, or run some other logic.
+         * It's your menu, man, do whatever.
+         * 
+         * The "destination" is the Page object it's about to change to.
+         */
+        helpMenu.on('pageChange', destination => {
+            destination.content.title = "Hey, " + message.author.username
+        })
+    }
+})
+
+client.login("Get your bot's oauth token at https://discord.com/developers/applications")
+```
+You get the idea.
+
+### Special Destinations
+You may have noticed I mentioned "special destinations" above.   
+Discord.js-menu comes with 6 pre-defined destinations with specific uses.
+
+| Destination 	| Function                                                      	|
+|-------------	|---------------------------------------------------------------	|
+| first       	| Goes to the first page in the array.                          	|
+| last        	| Goes to the last page in the array.                           	|
+| previous    	| Goes to the previous page in the array.                       	|
+| next        	| Goes to the next page in the array.                           	|
+| stop        	| Removes reactions from the embed and stops updating the menu. 	|
+| delete      	| Stops the menu and deletes the message.                       	|
+
+Note that whilst calling a page one of these wouldn't break anything (the page would still be accessible using, ironically, the special destinations) you wouldn't be able to directly link to it.
+
+### Contributing
+Right now, the development pipeline is super simple. The [Standard](https://github.com/standard/standard) code style is used to keep styling consistent, but besides that, there's not much going on.  
+Feel free to PR anything you think others would find useful. I'll gladly approve new contributions!
+
+### Acknowledgements
+Some parts of this project were inspired by Juby210's [discord.js-reaction-menu](https://github.com/Juby210/discord.js-reaction-menu).  
+Thank you to Juby210 for releasing their code to the public and thus inspiring me to create my own implementation!
